@@ -1,0 +1,11 @@
+#player1 {
+    border: 5px outset red;
+    background-color: aqua;
+    text-align: center;
+}
+
+#player2 {
+    border: 5px outset aqua;
+    background-color: red;
+    text-align: center;
+}
