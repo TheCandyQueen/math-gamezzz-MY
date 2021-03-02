@@ -1,0 +1,86 @@
+#player1 {
+    border: 7px dashed red;
+    background-color: aqua;
+    text-align: center;
+}
+
+#player2 {
+    border:  7px dashed aqua;
+    background-color: hotpink;
+    text-align: center;
+}
+
+#buttonLogin {
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 30%;
+    background-color: lemonchiffon;
+    color: lightcoral;
+}
+
+#divzzz {
+    border: 10px ridge rgb(0, 247, 255);
+    background-color: rgb(255, 0, 157);
+    text-align: center;
+    border-radius: 20%;
+}
+
+body {
+    background-color: rgba(255, 153, 0, 0.616);
+}
+
+#mathQuizHeader {
+    text-align: center;
+    border: 10px ridge fuchsia;
+    background-color: hotpink;
+}
+
+#output {
+    background: azure;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#player1 {
+    width: 600px;
+    border-radius: 10px;
+}
+
+#player2 {
+    width: 600px;
+    border-radius: 10px;
+}
+
+#divzzz {
+    width: 1000px;
+}
+
+#output {
+    width: 1000px;
+    height: 180px;
+}
+
+#checkButton {
+    cursor: pointer;
+    width: 200;
+    height: 40px;
+    color: white;
+    background-color: plum;
+    border-radius: 10px;
+    border-color: pink;
+}
+
+#number1 {
+    padding: 5px;
+    border-color: sandybrown;
+    color: seagreen;
+}
+
+#number2 {
+    padding: 5px;
+    border-color: sandybrown;
+    color: seagreen;
+}
