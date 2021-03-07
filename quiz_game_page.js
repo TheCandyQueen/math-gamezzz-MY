@@ -11,3 +11,37 @@ function send() {
     document.getElementById("number2").value = "";
 
 }
+
+var question_turn = "player1";
+var answer_turn = "player2";
+
+function check() {
+    get_answer = document.getElementById("input_check_box").value;
+    if(get_answer == actual_answer) {
+        if(answer_turn == "player1") {
+            update_player1_score = player1_score + 1;
+            document.getElementById("player_score").innerHTML = update_player1_score;
+        }
+        else {
+            update_player2_score = player2_score + 1;
+            document.getElementById("player2_score").innerHTML = update_player1_score
+    }
+}
+//switching questioner turn
+if(question_turn == "player1") {
+    question_turn = "player2"
+    document.getElementById("player_question").innerHTML = "Question turn = " + player2_name;
+}
+else {
+    question_turn = "player1"
+    document.getElementById("player_question").innerHTML = "Question turn = " + player1_name;
+}
+//switching answerer turn
+if(answer_turn == "player1") {
+    answer_turn = "player2"
+    document.getElementById("questioner_turn").innerHTML = "Question turn = " + player2_name;
+}
+else {
+    question_turn = "player1"
+    document.getElementById("answerer_turn").innerHTML = "Answer turn = " + player1_name;
+}
